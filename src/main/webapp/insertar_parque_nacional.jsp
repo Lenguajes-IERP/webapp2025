@@ -11,6 +11,8 @@
     <title>Insertar Parque Nacional</title>
 </head>
 <body>
+    <%-- FORM CON EL METODO POST --%>
+    
     <form method="POST" action="./insertarParqueNacional">
         <p>Ingrese la información:</p>
         <label for="idParque">Identificación:</label>

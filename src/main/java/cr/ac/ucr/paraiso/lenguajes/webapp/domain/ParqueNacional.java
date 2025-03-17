@@ -1,7 +1,6 @@
+package cr.ac.ucr.paraiso.lenguajes.webapp.domain;
+
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cr.ac.ucr.paraiso.lenguajes.webapp.domain;
 
 /**
@@ -19,6 +18,7 @@ public class ParqueNacional {
         this.idParque = idParque;
         this.nombre = nombre;
     }
+    
 
     public int getIdParque() {
         return idParque;
@@ -35,6 +35,8 @@ public class ParqueNacional {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    
     
     
 }

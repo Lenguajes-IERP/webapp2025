@@ -5,6 +5,7 @@
 
 package cr.ac.ucr.paraiso.lenguajes.webapp.servlet;
 
+//import cr.ac.ucr.paraiso.lenguajes.webapp.domain.ParqueNacional;
 import cr.ac.ucr.paraiso.lenguajes.webapp.domain.ParqueNacional;
 import jakarta.servlet.ServletConfig;
 import java.io.IOException;
@@ -18,7 +19,7 @@ import java.util.LinkedList;
 
 /**
  *
- * @author Alvaro Mena
+ * Servlet configurado con anotaciones
  */
 @WebServlet(name="VerParquesNacionalesServlet2", urlPatterns={"/verParquesNacionales2"})
 public class VerParquesNacionalesServlet2 extends HttpServlet {
